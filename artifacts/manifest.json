@@ -1,0 +1,31 @@
+{
+  "families": {
+    "aluminum_alloy": 465,
+    "ceramic": 465,
+    "composite": 465,
+    "nickel_superalloy": 465,
+    "polymer": 465,
+    "stainless_steel": 465,
+    "titanium_alloy": 465
+  },
+  "implementation_version": "0.1.0",
+  "labels": {
+    "composition": 93,
+    "none": 2604,
+    "process": 93,
+    "provenance": 93,
+    "quota": 93,
+    "redistribution": 93,
+    "safety": 93,
+    "territory": 93
+  },
+  "numpy": "2.3.5",
+  "policies": 84,
+  "python": "3.12.14",
+  "requests": 3255,
+  "rng": "numpy.random.Generator(PCG64)",
+  "scipy": "1.17.0",
+  "seed": 20260924,
+  "status": "new_specification_based_reconstruction",
+  "template_groups": 15
+}
