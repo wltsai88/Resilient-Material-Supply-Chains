@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "resilient-material-supply-chains"
+version = "0.1.0"
+description = "Reproducible synthetic policy-version compliance benchmark for material supply chains"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3", "scipy>=1.10,<2", "matplotlib>=3.7,<4"]
+
+[project.scripts]
+rmsc-benchmark = "rmsc.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

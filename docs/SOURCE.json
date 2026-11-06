@@ -1,0 +1,17 @@
+{
+  "filename": "AAI_Manuscript_Full_Unblinded-v2.docx",
+  "sha256": "00303c2a3fddd248dc8f3ec8737b7b91cb1e1cd0d4b97dd3f83d352aa610fe8a",
+  "title": "Evidence-Grounded AI Decision Support for Policy-Version Compliance in Resilient Material Supply Chains",
+  "specification_sections": [
+    "3.6",
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.4",
+    "4.5",
+    "Tables 6\u20138"
+  ],
+  "original_generation_script_supplied": false,
+  "original_per_record_data_supplied": false,
+  "current_implementation": "new specification-based reconstruction"
+}
