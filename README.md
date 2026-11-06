@@ -1,4 +1,4 @@
-This repository creates 3,255 new synthetic material requests and 84 fictional policy documents, evaluates nine configurations, logs evidence and decisions, and runs separate cost and bargaining models.
+This repository creates 3,255 new synthetic material requests and 84 policy documents, evaluates nine configurations, logs evidence and decisions, and runs separate cost and bargaining models.
 Reconstruction status: the manuscript was supplied, but its original `run_benchmark.py`, exact policy/template text, original generated records, and random draw sequence were not supplied. This repository is a newly written implementation of the specification, not a recovered copy of the original experiment. Some manuscript counts differ from the computed outputs; all differences are exposed in `artifacts/results/paper_comparison.csv`. See `docs/PROVENANCE.md` before citing results.
 Quick start
 Python 3.10 or newer:
