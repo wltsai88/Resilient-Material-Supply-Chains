@@ -1,5 +1,7 @@
+# Resilient Material Supply Chains
+
 This repository creates 3,255 new synthetic material requests and 84 policy documents, evaluates nine configurations, logs evidence and decisions, and runs separate cost and bargaining models.
-Reconstruction status: the manuscript was supplied, but its original `run_benchmark.py`, exact policy/template text, original generated records, and random draw sequence were not supplied. This repository is a newly written implementation of the specification, not a recovered copy of the original experiment. Some manuscript counts differ from the computed outputs; all differences are exposed in `artifacts/results/paper_comparison.csv`. See `docs/PROVENANCE.md` before citing results.
+Implementation scope: this repository implements the manuscript specification using newly generated synthetic records. The original generation script, exact policy/template text, original records, and random draw sequence are not included. Some manuscript counts differ from the computed outputs; the differences are recorded in `artifacts/results/paper_comparison.csv`. See `docs/PROVENANCE.md` before citing results.
 Quick start
 Python 3.10 or newer:
 ```bash
@@ -67,6 +69,10 @@ Module	Responsibility
 `src/rmsc/report.py`	Figures and manuscript comparison
 `tests/test_research_contract.py`	Data, leakage, evidence, metric and model checks
 Chinese usage guide: `README_zh-TW.md`.
-GitHub publication
-The requested account is `wltsai88`; the intended repository slug is `Resilient-Material-Supply-Chains` (spaces replaced with hyphens). From an authenticated GitHub CLI environment, `bash scripts/publish_github.sh` checks the account, creates a private repository, and pushes this source and its generated outputs. It stops if the target already exists. This instruction is not evidence that the remote repository has been created.
-No license is selected in this initial research package; the copyright holder can add a suitable code/data license before public release. The uploaded manuscript is not included in the repository; its SHA-256 and the relevant specification are recorded in `docs/SOURCE.json`.
+## Public repository and licensing
+
+The public repository is https://github.com/wltsai88/Resilient-Material-Supply-Chains.
+
+Author-created synthetic data, generated results, and documentation are licensed under CC BY 4.0 (see DATA_LICENSE.md). Source code and executable scripts are licensed under MIT (see LICENSE). Third-party dependencies retain their respective licenses.
+
+For citation details, see CITATION.cff. Cite the specific commit used for analysis. The manuscript is not distributed in this repository; its specification and SHA-256 are recorded in docs/SOURCE.json.

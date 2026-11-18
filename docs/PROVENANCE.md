@@ -1,8 +1,8 @@
 # Provenance and reconstruction choices
 
-Source: the supplied `AAI_Manuscript_Full_Unblinded-v2.docx`, especially §3.6 and §4.1–4.5, Tables 6–8. The source document hash is recorded in SOURCE.json. Its original generation script and supporting files were not supplied with the manuscript.
+Source specification: `AAI_Manuscript_Full_Unblinded-v2.docx`, especially §3.6 and §4.1–4.5, Tables 6–8. The source document hash is recorded in SOURCE.json. The original generation script and supporting files are not included in this repository.
 
-The source describes a **newly generated** synthetic benchmark with this population. Earlier conversation references to unavailable historical data do not replace this document's explicit specification. This package implements that specification but does not recover the exact original records.
+The source describes a **newly generated** synthetic benchmark with this population. This package implements that specification but does not recover the exact original records.
 
 ## Explicit manuscript parameters
 
