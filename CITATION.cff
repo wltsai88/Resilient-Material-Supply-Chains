@@ -1,12 +1,8 @@
 cff-version: 1.2.0
-message: "Please cite this public research implementation and specify the commit used."
-type: dataset
-title: "Resilient Material Supply Chains: Synthetic benchmark data and supporting code"
+message: "If you use this software, please cite it as below."
 authors:
-  - family-names: Tsai
-    given-names: Wen-Lung
-    affiliation: National Taipei University of Business
-url: "https://github.com/wltsai88/Resilient-Material-Supply-Chains"
-license:
-  - CC-BY-4.0
-  - MIT
+  - family-names: "Tsai"
+    given-names: "W. L."
+title: "Resilient-Material-Supply-Chains"
+version: 1.0.1
+date-released: 2026-11-19
